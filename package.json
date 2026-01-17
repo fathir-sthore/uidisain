@@ -1,1 +1,30 @@
-
+{
+  "name": "bot-jasseb-resming",
+  "version": "2.0.0",
+  "description": "Bot Broadcast Telegram untuk sharing ke multiple grup",
+  "main": "botresming.js",
+  "scripts": {
+    "start": "node botresming.js",
+    "dev": "nodemon botresming.js",
+    "setup": "npm install"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "broadcast",
+    "sharing",
+    "group"
+  ],
+  "author": "FATHIR STHORE",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.12.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fathir-sthore/jaseb-v1.git"
+  }
+}
